@@ -18,8 +18,8 @@ Add the following snippet to any project's pom that depends on your project:
 ```
 <repositories>
     <repository>
-        <id>YOUR-PROJECT-NAME-mvn-repo</id>
-        <url>https://raw.github.com/YOUR-USERNAME/YOUR-PROJECT-NAME/mvn-repo/</url>
+        <id>mvn-repo</id>
+        <url>https://cdn.rawgit.com/chuenlye/maven-repo/master/repository/</url>
         <snapshots>
             <enabled>true</enabled>
             <updatePolicy>always</updatePolicy>
